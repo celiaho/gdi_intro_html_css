@@ -6,3 +6,67 @@ body {
 p {
 	color: #33302B;
 }
+
+a:link {
+	color: green;
+}
+
+a:visited {
+	color: gray;
+}
+
+a:hover {
+	color: red;
+}
+
+a:active {
+	color: aqua;
+}
+
+.names {
+	color: green;
+	font-weight: bold;
+}
+
+.wrapper {
+	margin: auto;
+	width: 700px;
+}
+
+.list-left {
+	margin-left: 30px;
+	margin-right: 30px;
+	width: 300px;
+	float: left;
+}
+
+.list-right {
+	margin-left: auto;
+	margin-right: 30px;
+	width: 300px;
+	float: left;
+}
+
+.footer-parent {
+	text-align: left;
+	color: orange;
+	border-style: dotted;
+	border-width: medium;
+	/*width: auto;*/	
+	overflow: auto;
+	padding: 10px 10px;
+	/*margin: 20px;*/
+	clear: both; /* Brings footer-parent to page bottom!!! */
+}
+
+.footer-left {
+	text-align: left;
+	color: orange;
+	float: left;
+}
+
+.footer-right {
+	color: orange;
+	float: right;
+	text-align: right;
+}
